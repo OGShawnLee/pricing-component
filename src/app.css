@@ -1,0 +1,12 @@
+a,
+button {
+  outline: none;
+}
+
+.bounding {
+  @apply max-w-xs sm:max-w-md md:max-w-xl lg:max-w-4xl xl:max-w-6xl;
+}
+
+.bg-gradient-r {
+  @apply bg-gradient-to-r from-gradient-light to-gradient-blue;
+}
